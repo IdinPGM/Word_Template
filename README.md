@@ -1,7 +1,8 @@
-Read Me
+#Read Me
+
 Purpose: This script is designed to efficiently create multiple customized Word documents based on a single template and data stored in an Excel file.
 
-Prerequisites:
+#Prerequisites:
 
 Python 3.x installed.
 The following Python libraries installed:
@@ -17,4 +18,4 @@ Run the Python script (fill_word_template.py).
 The script will read the data from input.xlsx and generate new Word documents (e.g., output_row1.docx, output_row2.docx) in the same directory, with the placeholders filled with the corresponding data.
 Output:
 
-The script will generate one Word document for each row in the input.xlsx file, with the placeholders in the template.docx replaced by the data from that row. The output files will be named with a prefix (default: output.docx) followed by _row and the row number from the Excel file.
+#The script will generate one Word document for each row in the input.xlsx file, with the placeholders in the template.docx replaced by the data from that row. The output files will be named with a prefix (default: output.docx) followed by _row and the row number from the Excel file.
